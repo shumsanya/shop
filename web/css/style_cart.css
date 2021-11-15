@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #535b60;
+}
+a {
+    color: #4f8db3;
+}
+a:hover {
+    color: #2f556d;
+}
+
+.section {
+    padding: 30px 0;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.section-breadcrumbs {
+    background: #222;
+    background: rgba(34, 34, 34, 0.8);
+    /*margin-bottom: 10px;*/
+}
+.input-micro {
+    width: 65px;
+    margin-bottom: 0 !important;
+}
+/*--------------------------------------------------------------------------
++	Buttons Style
+--------------------------------------------------------------------------*/
+.btn {
+    border: 1px solid #4f8db3;
+    -webkit-border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px;
+    background-clip: padding-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    transition: all .25s ease;
+    text-align: center;
+    background: none repeat scroll 0 0 #4f8db3;
+    text-shadow: none;
+    box-shadow: none;
+    color: #FFF;
+    white-space: nowrap;
+}
+.btn:hover {
+    background: none repeat scroll 0 0 #3b3c41;
+    color: #FFF;
+    text-decoration: none;
+    border: 1px solid #3b3c41;
+}
+.btn .caret {
+    border-top: 4px solid #FFF;
+}
+.btn-micro {
+    padding: 1px 8px;
+    font-size: 10px;
+}
+.btn-grey {
+    border: 1px solid #cecece;
+    color: #333;
+    background: none repeat scroll 0 0 #E7E7E7;
+}
+.btn-grey:hover {
+    background: none repeat scroll 0 0 #cecece;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #cecece;
+}
+.btn-grey .caret {
+    border-top: 4px solid #333;
+}
+/*--------------------------------------------------------------------------
++	Shopping Cart Style
+--------------------------------------------------------------------------*/
+.shopping-cart {
+    margin: 10px 0 0 0;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+.shopping-cart a {
+    color: #535b60;
+}
+.shopping-cart tr {
+    background: #FFF;
+}
+.shopping-cart td {
+    padding: 10px;
+}
+.shopping-cart td:first-child {
+    -webkit-border-radius: 5px 0 0 5px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 5px 0 0 5px;
+    -moz-background-clip: padding;
+    border-radius: 5px 0 0 5px;
+    background-clip: padding-box;
+    margin-left: 10px;
+}
+.shopping-cart td:last-child {
+    -webkit-border-radius: 0 5px 5px 0;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0 5px 5px 0;
+    -moz-background-clip: padding;
+    border-radius: 0 5px 5px 0;
+    background-clip: padding-box;
+    margin-right: 10px;
+}
+.shopping-cart .image,
+.shopping-cart .image img {
+    max-width: 150px;
+}
+.shopping-cart .title {
+    font-size: 1.1em;
+}
+.shopping-cart .feature {
+    font-size: 0.8em;
+}
+.shopping-cart .color span {
+    display: inline-block;
+    *display: inline;
+    width: 8px;
+    height: 8px;
+    border-width: 1px;
+    border-style: solid;
+}
+.shopping-cart .quantity {
+    width: 80px;
+}
+.shopping-cart .price {
+    color: #535b60;
+    font-size: 1.2em;
+    width: 80px;
+    text-align: center;
+}
+.shopping-cart .actions {
+    width: 80px;
+}
+.shopping-cart .actions .btn {
+    margin-bottom: 5px;
+}
+.cart-totals {
+    margin: 20px 0 30px 0;
+    border-top: 2px solid #535b60;
+    font-size: 1.1em;
+    line-height: 24px;
+    text-align: right;
+    width: 100%;
+}
+.cart-totals td {
+    width: 150px;
+    padding: 3px 0;
+}
+.cart-totals .cart-grand-total {
+    font-size: 1.3em;
+}
+@media (max-width: 500px) {
+    .shopping-cart .image {
+        display: none;
+    }
+    .cart-item-title {
+        font-size: 0.8em;
+    }
+}
